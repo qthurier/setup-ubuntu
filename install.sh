@@ -70,6 +70,9 @@ else
     sudo $dir/install-root/java.sh
     sudo $dir/install-root/node.sh
     sudo $dir/install-root/aws.sh
+    sudo $dir/install-root/chrome.sh
+    sudo $dir/install-root/vscode.sh
+    sudo $dir/install-root/sublime.sh
 	sudo $dir/install-root/ripgrep.sh
     if [[ "$USER" == "root" ]]; then
         sudo -H -u "$INSTALL_USER" $dir/install-user/packages.sh
